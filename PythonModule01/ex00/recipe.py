@@ -27,13 +27,14 @@ class Recipe:
         text += "Ingredients:   " 
         for i in self.ingredients:
             text += i + ", "
+        text = text[:-2]
         text += "\nDescription:   " + self.description + "\n"
         text += "Recipe type:   " + self.recipe_type
         return text
 
-rec = Recipe("test", 1, 10, ["test", "test2"], "test", "starter")
-to_print = str(rec)
-print(to_print)
+# rec = Recipe("test", 1, 10, ["test", "test2"], "test", "starter")
+# to_print = str(rec)
+# print(to_print)
 # print(rec)
 
     
