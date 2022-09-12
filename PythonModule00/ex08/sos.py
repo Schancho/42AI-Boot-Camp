@@ -1,12 +1,3 @@
-# Make a program that takes a string as argument and encode it into Morse code.
-# • The program supports space and alphanumeric characters
-# • An alphanumeric character is represented by dots . and dashes -:
-# • A space character is represented by a slash /
-# • Complete morse characters are separated by a single space
-# If more than one argument are provided, merge them into a single string with each
-# argument separated by a space character.
-# If no argument is provided, do nothing or print an usage.
-
 import sys
 
 morse = {
