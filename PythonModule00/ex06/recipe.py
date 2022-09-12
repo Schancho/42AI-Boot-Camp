@@ -102,6 +102,11 @@ while True:
     except EOFError:
         break
     option(number)
+
+
+if __name__ == "__main__":
+    main()
+    
     # if option(number) == -1:
     #     print("This option does not exist, please type the corresponding number.")
     #     print("to exit, enwter 5")
